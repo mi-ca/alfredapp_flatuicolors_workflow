@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>mi-ca.ch</string>
+	<string>ch.mi-ca.flatuicolors</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -42,11 +42,11 @@
 	<key>createdby</key>
 	<string>mi-ca</string>
 	<key>description</key>
-	<string></string>
+	<string>Alfred App workflow that help you to get flatuicolors.com hexa code by just typing : flat</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>flatuicolors</string>
+	<string>Flat UI Colors</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -63,9 +63,9 @@
 				<key>sticky</key>
 				<false/>
 				<key>text</key>
-				<string>{query} copied to Clipboard ✌️</string>
+				<string>{query} copied to clipboard ✌️</string>
 				<key>title</key>
-				<string>FlatUIColor</string>
+				<string>FlatUIColors</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -141,7 +141,23 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string># Alfred App flatuicolors Workflow
+
+Pick colors from [flatUIcolors.com](www.flatuicolors.com)
+
+###[download](https://github.com/mi-ca/alfredapp_flatuicolors_workflow/blob/master/flatuicolors.alfredworkflow?raw=true)
+
+![Screenshot flatuicolors Workflow](https://raw.github.com/mi-ca/alfredapp_flatuicolors_workflow/master/src/flatuicolors-workflow-screenshot.png)
+
+##install
+1. [download flatuicolors.alfredworkflow](https://github.com/mi-ca/alfredapp_flatuicolors_workflow/blob/master/flatuicolors.alfredworkflow?raw=true)
+2. double click to install
+3. choose **tool** or **productivity** category
+
+## usage :
+* type : `flat`
+* pick a color with shortcut `cmd + x` or with arrow keys
+* auto past</string>
 	<key>uidata</key>
 	<dict>
 		<key>07F45581-5A3D-4520-90DA-CF7B802CBC8E</key>
