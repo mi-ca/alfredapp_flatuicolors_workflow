@@ -1,4 +1,4 @@
-# alfredapp_flatuicolors_workflow
+# Alfred App flatuicolors Workflow
 
 Pick colors from [flatUIcolors.com](www.flatuicolors.com)
 
