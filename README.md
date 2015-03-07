@@ -2,6 +2,8 @@
 
 Pick colors from [flatUIcolors.com](www.flatuicolors.com)
 
+###[download flatuicolors.alfredworkflow](https://github.com/mi-ca/alfredapp_flatuicolors_workflow/blob/master/flatuicolors.
+
 ![Screenshot flatuicolors Workflow](https://raw.github.com/mi-ca/alfredapp_flatuicolors_workflow/master/src/flatuicolors-workflow-screenshot.png)
 
 ##install
