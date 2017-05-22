@@ -14,6 +14,8 @@ $wf = new Workflows();
 // Get the raw query and store it for use.
 //
 $clean = trim("{query}");
+$query = trim($argv[1]);
+
 $colors = ['turquoise'=>"#1abc9c",
 		   'emerland'=>"#2ecc71",
 		   'peter-river'=>"#3498db",
@@ -39,6 +41,10 @@ foreach ($colors as $key => $val) {
 	if(!file_exists('icons/'.$key.'.png')){
 		getImg($key,$val);
 	}
+
+    if ($query && !strchr($key, $query)) {
+        continue;
+    }
 
 	$wf->result($i."PM", $key.'~'.$val, $val, $key, 'icons/'.$key.'.png', "yes");	
 	$i++;
